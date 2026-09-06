@@ -1,0 +1,17 @@
+﻿{
+  "name": "sentinel-guard",
+  "version": "1.0.0",
+  "description": "Zero-dependency static security scanner, Shannon entropy secret detector, and SAST analyzer",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "sentinel-guard": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/test/*.test.js"
+  },
+  "keywords": ["security", "scanner", "sast", "entropy", "secrets", "owasp", "linter"],
+  "author": "davidselorm",
+  "license": "Apache-2.0"
+}
